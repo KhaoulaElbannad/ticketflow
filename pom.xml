@@ -27,6 +27,7 @@
         <module>services/customer-service</module>
         <module>services/api-gateway</module>
         <module>services/discovery-server</module>
+        <module>services/config-server</module>
     </modules>
 
     <dependencyManagement>
@@ -34,7 +35,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
+                <version>2025.1.2</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
